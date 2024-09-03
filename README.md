@@ -1,6 +1,6 @@
 # resolve-hostname-by-icmp
-Service to resolve hostname by using SNMP to get the hostname of the ICMP source IP
-
+Service to resolve hostname by using SNMP to get the hostname of the ICMP source IP received by the server. The /etc/hosts file is updated by this script beside another file informed in the variable "custom_host_file" if desired.
+Serviço para resolver o hostname usando SNMP para obter o hostname do IP de origem de pacotes ICMP recebidos no servidor. O arquivo /etc/hosts é atualizado juntamente com outro arquivo informado na variável "custom_host_file" caso desejado.
 
 Para rodar o script como um serviço no Ubuntu, você pode usar o systemd, que é o sistema de inicialização padrão. Aqui está um guia 
 
